@@ -1,0 +1,65 @@
+Search: Community Driven Gardens
+
+similiar endevours:
+    Farming for Mars (90% less water used)
+        https://www.youtube.com/watch?v=zjoiIEI0pOY
+    Community Driven Development & Agriculture
+        https://www.youtube.com/watch?v=P7IBwkvAefE
+
+Community
+
+- Community Gardens
+    1) Grow food
+    2) Aquire credits for planting/maintaining/harvesting plants
+    3) Spend credits to take harvested crops from distribution area
+    4) Limit how many credits each individual can earn per week *potentially*
+    5) Feedback system for reporting group efforts to exploit system
+    6) App has "Show Appreciation" section where they can donate to developer or watch ads
+    7) Earn credits when people signup with your refferal link or refferal code
+    8) Excess produce is donated to Food-based Charities
+    9) App has a "Spread the Word" tab for sharing this app or similiar endevours
+
+    Description)
+    A community garden driven by volunteer's which can be any shape/size
+    Each garden has it's own table in the database representing all it's ranges
+    Planting Volunteers approach Primary Admin Volunteer before starting to get initiate credit earning process (This happens once)
+    Planting Volunteers approach Primary Admin Volunteer before leaving area to end credit earning process
+    Primary Admin Volunteer assigns picture & range # to a Planting Volunteer
+    Every X amount of ZxZ feet = 1 range (With a sign phsyically identifying the range #)
+    1 Admin Volunteer per range with a GUI representing all Planting Volunteers & their stats within range
+
+    Technicalities)
+        Virtual Representation of Facility:
+            - Database of tables, each table == 1 virtual facility representing 1 physical facility's ranges
+            - Each range # identifies all volunteer's working within that range
+            - 2 Labor types (Planting Volunteers Work & Admin Volunteers Work)
+            - Modifiers for Admin Volunteers Work based off tier
+            - Planting Volunteers rewarded based off amount of work done
+            - Admin Volunteers rewarded based off of time worked
+            - Anyone can perform lower-tier work
+            - Always 1 Primary Admin Volunteer per location
+            - Always 1 Admin Volunteer per range #
+
+    Volunteer tiers)
+        1) Planting Volunteers - Plant/Maintain/harvest functions
+        2) Admin Volunteers - Regulatory & operation functions
+        3) Primary Admin Volunteer - 1 per physical site, Handles physical badges & oversee's Admin Volunteers
+        4) Primary Admin Volunteer++ - Same as previous Primary Admin Volunteer, but able too request implementation of addional physical sites to be virtually implemented
+
+    Problem)
+        - How to define & regulate how people aquire credits to prevent gaming the system & reward people fairly
+        - Higher tier volunteer's should on average earn more than lower tier volunteer's
+
+    Solution)
+        - Virtual Badges avaliable for everyone via app (Everyone has a unique badge ID)
+        - Some onsite physical badges
+        - Badge scanner is built into the app
+        - Credits are avaliable in 2 forms, authorized and unauthorized
+        - Admin Volunteers verify credits (convert unauthorized credits into authorized credits)
+        - Admin Volunteers are awarded credits by time
+        - All Admin Volunteers have a GUI view of all badges working within their range #
+        - Admin Volunteers can easily replace picture associated with a physical badge ID
+        - Planting Volunteers apply unauthorized credits after performing an action
+
+
+
